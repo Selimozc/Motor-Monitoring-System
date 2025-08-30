@@ -15,13 +15,13 @@
 WiFiClient wifiClient;
 WiFiClientSecure secureClient;
 // WiFi Ayarları
-const char* ssid = "Redmi Note 9";
-const char* password = "Nzrslm00.";
+const char* ssid = "YOUR SSID";
+const char* password = "YOUR PASSWORD";
 
 // ------------ Telegram Ayarları ------------
 
-#define BOTtoken "7829233263:AAHS3hvcatPetWM22udVg9m3Akj9bXDjMFg" //Token obtained from BotFather
-#define CHAT_ID "1667123081"
+#define BOTtoken "" //Token obtained from BotFather
+#define CHAT_ID ""
 UniversalTelegramBot bot(BOTtoken, secureClient);
 
 // ------------ ThingSpeak Ayarları ------------
